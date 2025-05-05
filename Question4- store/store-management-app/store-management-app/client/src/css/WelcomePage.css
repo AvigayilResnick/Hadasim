@@ -1,0 +1,42 @@
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .welcome-page h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .welcome-page p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 500px;
+  }
+  
+  .welcome-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .welcome-buttons button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #2d3436;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .welcome-buttons button:hover {
+    background-color: #636e72;
+  }
+  
